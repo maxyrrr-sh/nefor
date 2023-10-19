@@ -1,0 +1,60 @@
+.navBar{
+    background: linear-gradient(180deg, #000 0%, rgba(217, 217, 217, 0.00) 100%);
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.currency,
+.language{
+    font-family: Metal;
+    font-size: 24px ;
+    justify-self: center;
+
+    margin: 15px 20px;
+
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+    color: white;
+}
+
+.option{
+    font-family: Metal;
+    background: transparent;
+    color: black;
+}
+
+.linkBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user {
+    font-size: 24px;
+    margin: 15px;
+    color: white;
+    outline: none;
+    text-decoration: none;
+}
+
+.heart,
+.cart{
+    width: 2rem;
+    height: 2rem;
+    margin: 0 10px;
+}
+
+.user:hover,
+.heart:hover,
+.cart:hover,
+.currency:hover,
+.language:hover{
+    cursor: pointer;
+    filter: invert(31%) sepia(93%) saturate(7363%) hue-rotate(356deg) brightness(98%) contrast(125%);
+    scale:1.2;
+}
